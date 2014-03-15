@@ -1,0 +1,7 @@
+You are a nurse working at the A&E ward. 
+
+One of your patients is in critical condition and needs 3 medicines located in different areas around the hospital. 
+
+There is not much time, your patient is slowly fading away... 
+
+You begin your search for the medicines immediately
