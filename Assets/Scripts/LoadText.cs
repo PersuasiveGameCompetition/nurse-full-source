@@ -173,7 +173,7 @@ public class LoadText : MonoBehaviour {
 		}
 		drawText ();
 		//Draw choice buttons once all the text has been drawn on screen.
-		if (curLine == lines.Count){
+		if (curLine >= lines.Count -1){
 			handleButtons();
 		}
 	}
@@ -185,17 +185,29 @@ public class LoadText : MonoBehaviour {
 									btnWidth, btnHeight);
 			if(GUI.Button(btnRect, choices[0], btnStyle)) {
 				Debug.Log("Player chose " + choices[0]);
-				loadNewFile(locations[0]);
-			} else if(btnRect.Contains(Event.current.mousePosition) &&
-					  Event.current.button == 0) { //Mouse Down
+				Debug.Log(choices[0]);
+				if (locations[0].Equals("endgame")){
+					Debug.Log("Game won");
+					endGame(time <= TIME_TO_WIN);
+					return;
+				} else {
+					loadNewFile(locations[0]);
+				}
 			}
 
 		} else { //There are two choices, user can only have one or two choices 
 				 //for this game.
-			if (GUI.Button(new Rect(Screen.width / 3 - btnWidth / 2, yPosition(lines.Count + 2),
+			if (GUI.Button(new Rect(Screen.width / 3 - btnWidth / 2,
+							yPosition(lines.Count + 2),
 				btnWidth, btnHeight), choices[0], btnStyle)) {
 				Debug.Log("Player chose " + choices[0]);
-				loadNewFile(locations[0]);
+				if (locations[0].Equals("endgame")){
+					Debug.Log("Game won");
+					endGame(time <= TIME_TO_WIN);
+					return;
+				} else {
+					loadNewFile(locations[0]);
+				}
 			} else if (GUI.Button(new Rect((Screen.width * 2) / 3 - btnWidth / 2,
 			 			yPosition(lines.Count + 2), btnWidth, btnHeight),
 			 			choices[1], btnStyle)) {
@@ -257,11 +269,7 @@ public class LoadText : MonoBehaviour {
 
 		parseSection("Choices", choices);
 		parseSection("SendTo", locations);
-		if(locations.Contains("endgame")) {
-			Debug.Log("Game won");
-			endGame(time <= TIME_TO_WIN);
-			return;
-		}
+
 		parseTime();
 		curLine = 0;
 	}
