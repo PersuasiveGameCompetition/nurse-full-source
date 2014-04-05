@@ -62,7 +62,6 @@ public class LoadText : MonoBehaviour {
 		images = new List<string>();
 		txtColor = Color.white;
 		lineWidth = (Screen.width / 2) ; //Text covers 2/3 of screen.
-		//lineSpacing = 30; TODO: Dynamicaly set this value.
 		xLoc = Screen.width / 4;
 		yStart = Screen.height / 4 ;
 		time = 0;
@@ -154,12 +153,13 @@ public class LoadText : MonoBehaviour {
 					audio.clip = heartbeats[6];
 					audio.Play();
 				}
+
+				prevTime = time;
 			}
 		}
 	}
 
 	void OnGUI() {
-		//btnStyle = txtStyle;
 		if(curImg != null) {
 			if(curImgFade == null) {
 				Debug.Log("null!!!");
@@ -180,10 +180,14 @@ public class LoadText : MonoBehaviour {
 
 	void handleButtons() {
 		if (choices.Count == 1) {
-			if(GUI.Button(new Rect(Screen.width / 2 - btnWidth / 2, yPosition(lines.Count + 2),
-				btnWidth, btnHeight), choices[0], btnStyle)) {
+			Rect btnRect = new Rect(Screen.width / 2 - btnWidth / 2,
+									yPosition(lines.Count + 2),
+									btnWidth, btnHeight);
+			if(GUI.Button(btnRect, choices[0], btnStyle)) {
 				Debug.Log("Player chose " + choices[0]);
 				loadNewFile(locations[0]);
+			} else if(btnRect.Contains(Event.current.mousePosition) &&
+					  Event.current.button == 0) { //Mouse Down
 			}
 
 		} else { //There are two choices, user can only have one or two choices 
