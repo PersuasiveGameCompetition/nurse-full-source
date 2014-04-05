@@ -1,0 +1,25 @@
+You walk down the corridor. 
+
+'Nurse!'
+
+A doctor quickly approaches you. 
+
+'Nurse, I need bloods taken for the patient in the next room, can you spare a few minutes?'
+
+Choices:
+Go with the doctor
+Continue the search for the medicine
+End Choices:
+
+SendTo:
+helpbloods
+denybloods
+End SendTo:
+
+Images:
+bloods
+End Images:
+
+Time:
+0
+End Time:

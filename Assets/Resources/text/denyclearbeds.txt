@@ -1,0 +1,23 @@
+'I'm sorry, but I just don't have time. I need to get medicines for my patient who's still waiting for me.'
+
+The bed manager looks very angry and stressed.
+
+You feel useless - if only you had more time to help. 
+
+You turn around to leave before the bed manager has time to stop you. 
+
+Choices:
+Continue Searching
+End Choices:
+
+SendTo:
+dementia
+End SendTo:
+
+Images:
+
+End Images:
+
+Time:
+0
+End Time:

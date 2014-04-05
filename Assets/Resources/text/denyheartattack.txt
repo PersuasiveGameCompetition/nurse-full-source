@@ -1,0 +1,23 @@
+'I'm so sorry, but I can't help you. You may have better luck speaking to one of the other nurses.
+
+'I'm in the middle of an important task with another patient.'
+
+The woman looks at you desperately, tears rolling down her cheeks. 
+
+You feel such compassion for her, but force yourself to turn away.
+
+Choices:
+Continue Search
+End Choices:
+
+SendTo:
+wardrounds
+End SendTo:
+
+Images:
+denyheartattack
+End Images:
+
+Time:
+0
+End Time:

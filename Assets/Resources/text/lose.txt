@@ -1,0 +1,34 @@
+You arrive at your patient's room and see that a medical team is there.
+
+They are busy at work trying to revive your patient. You have arrived too late. You did not deliver his medicines on time. 
+
+You realise that you spent too much time along the way.
+
+You should probably have focused more on finding the medicines, instead of helping others who approached you. 
+
+You feel fear growing inside of you.
+
+Your manager will not be happy about this. You were in charge here - you should have delivered the medicines on time.
+
+The family of your patient will be very upset - there will be lots of explaining to do.
+
+You fear - no, you know for certain - that you will be blamed for this. Your colleague made a similar mistake a few months ago and she was fired.
+
+You do not want to face the same end - but it was so difficult to say no to all those other people in need.
+
+The stress has taken its toll on you. You feel both physically and emotionally exhausted.
+
+Choices:
+Finish
+End Choices:
+
+SendTo:
+end
+End SendTo:
+
+Images:
+End Image: 
+
+Time:
+0
+End Time:

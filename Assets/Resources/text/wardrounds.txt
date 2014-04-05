@@ -1,0 +1,25 @@
+You are walking down the corridor. 
+
+'Nurse!'
+
+A medical team approaches you. 
+
+'Nurse, we need you for ward rounds.'
+
+Choices:
+Help Perform Ward Rounds
+Continue Searching
+End Choices:
+
+SendTo:
+helpwardrounds
+denywardrounds1
+End SendTo:
+
+Images:
+wardrounds
+End Images:
+
+Time:
+0
+End Time:

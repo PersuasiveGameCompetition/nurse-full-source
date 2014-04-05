@@ -1,0 +1,31 @@
+You keep walking down the corridors. 
+
+'Nurse!'
+
+A distressed woman approaches you. 
+
+'Please, nurse, my mother, she's very old - and she's only just recovered from a hip operation. 
+
+We've been waiting for the hospital to arrange for our transport home for over 2 hours now - 
+
+please, can you speak to the staff to make sure that someone will pick us up soon?
+
+My mother is getting so tired - she needs to get home, she needs to get some rest!'
+
+Choices:
+Arrange Transport
+Continue Search
+End Choices:
+
+SendTo:
+helpoldwoman
+denyoldwoman
+End SendTo:
+
+Images:
+oldwoman
+End Images:
+
+Time:
+0
+End Time:

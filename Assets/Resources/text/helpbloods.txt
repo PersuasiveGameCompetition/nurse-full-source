@@ -1,0 +1,27 @@
+You can tell that the doctor urgently needs a nurse and you reply:
+
+'I'll stay and help'. 
+
+You take the bloods as quickly as you can. 
+
+The doctor gives you a grateful glance, and thanks you sincerely.
+
+You feel your spirit lighten 
+
+...until you realise that you still need to hurry to find the medicines for your patient.
+
+Choices:
+Continue Your Search
+End Choices:
+
+SendTo:
+oldwoman
+End SendTo:
+
+Images:
+helpbloods
+End Images:
+
+Time:
+1
+End Time:

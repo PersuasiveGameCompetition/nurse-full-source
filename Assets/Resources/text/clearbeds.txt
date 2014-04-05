@@ -1,0 +1,33 @@
+You continue walking down the hospital's corridors and spot the second medicine cabinet.
+
+You quickly retrieve the right medicine. Now you only need to find one more medication. 
+
+Suddenly you see the bed manager walking in your direction.
+
+She steps into one of the patient rooms close to you, scowls and then turns to you. 
+
+'Nurse! I need the bed in this room cleared immediately.'
+
+You peek inside the room, and see that an elderly woman lies, dead, on the bed.
+
+The bed manager continues to speak to you:
+
+'I really need this bed, we've had several new patients come in, you'll have to clear it for me.'
+
+Choices:
+Clear the Bed
+Continue Searching
+End Choices:
+
+SendTo:
+helpclearbeds
+denyclearbeds
+End SendTo:
+
+Images:
+clearbeds
+End Images:
+
+Time:
+1
+End Time:

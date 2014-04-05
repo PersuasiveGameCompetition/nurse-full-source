@@ -1,0 +1,35 @@
+You continue down the corridor. As you walk along, you see an elderly lady patient wandering about. 
+
+You hear her muttering as you walk closer to her: 
+'Oh dear... Where am I? I can't seem to find my way back to my room...'
+
+You realise that it's the elderly lady with dementia from the floor above who was recently admitted due to a bad fall. 
+
+The elderly lady looks up at you, saying:
+
+'Can you help me? I'm trying to find my way back... but I'm not sure which direction I came from... Where am I?'
+
+She glances up and down the corridor, her face lined with confusion and anxiety. 
+
+As you approach her, a strong smell overwhelms you. 
+
+She has soiled herself. She needs your help. 
+
+
+Choices:
+Help Her
+Continue Searching
+End Choices:
+
+SendTo:
+helpdementia
+denydementia
+End SendTo:
+
+Images:
+dementia
+End Images:
+
+Time:
+0
+End Time:

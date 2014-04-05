@@ -1,0 +1,25 @@
+You rush along the corridor. You're close to the last medicine cabinet now.
+
+Suddenly a sharp beeping sound catches your attention from a room ahead. 
+
+You quickly realise the source of the sound: a patient in critical condition has just flatlined and needs immediate help. 
+
+You are also keenly aware that you are running out of time for finding the last medicine. 
+
+Choices:
+Help the Patient
+Continue Searching
+End Choices:
+
+SendTo:
+helpflatline
+denyflatline
+End SendTo:
+
+Images:
+flatline
+End Images:
+
+Time:
+0
+End Time:

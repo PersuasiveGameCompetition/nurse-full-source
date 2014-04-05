@@ -1,0 +1,29 @@
+'OK, I'll stay and help.'
+
+You take the medical team through the ward. 
+
+You go from one patient... 
+
+To another...
+
+To another... 
+
+To another... 
+
+And finally you are ready to continue your search for medicines.
+
+Choices:
+Continue Search
+End Choices:
+
+SendTo:
+clearbeds
+End SendTo:
+
+Images:
+
+End Images:
+
+Time:
+2
+End Time:

@@ -1,0 +1,23 @@
+'I'm sorry doctor, but I'm in a rush to get medicines for one of my patients - he's in a critical condition.'
+
+The doctor gives you a disapproving look, but replies:
+
+'Fine. I'll try to find another nurse to help me.'
+
+You feel very unproffessional, but continue on your way. 
+
+Choices:
+Continue
+End Choices:
+
+SendTo:
+oldwoman
+End SendTo:
+
+Images:
+
+End Images:
+
+Time:
+0
+End Time:
